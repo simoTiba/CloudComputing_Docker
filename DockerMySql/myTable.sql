@@ -1,0 +1,12 @@
+create database TIBA_DB;
+use TIBA_DB;
+
+CREATE TABLE Table_TIBA
+(
+id INTEGER AUTO_INCREMENT,
+name TEXT,
+age INTEGER,
+email TEXT,
+pwd TEXT,
+PRIMARY KEY (id)
+) COMMENT='MOHAMED_TIBA_M2DataScales';
